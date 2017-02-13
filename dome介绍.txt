@@ -1,0 +1,4 @@
+
+
+dome用AngularJS框架，ui-router.js.
+实现购物车效果，实际效果包括商品的添加，数目增，减，删，
