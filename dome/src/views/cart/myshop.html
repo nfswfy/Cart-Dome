@@ -1,0 +1,47 @@
+<div class="myshop_title">
+    购物车
+</div>
+<div class="myshop_address">
+    爱鲜蜂需要你的精确坐标
+</div>
+<div class="myshop_paisong">
+    <div>
+        <span></span>
+        闪送超市
+    </div>
+    <div>￥0元起送，22:00前满30减免运费，22:00后满69减免运费</div>
+</div>
+<div class="myshop_addtime">
+    收货时间
+    <div class="myshop_addtime1">一小时到达</div>
+    <div class="myshop_addtime2">可预订></div>
+</div>
+<div class="myshop_remarks">
+    收货备注
+    <input type="text" placeholder="可输入一百字以内特殊要求内容">
+</div>
+
+<div class="myshop_shopping" ng-repeat=" a in arr3" >
+    <div  >
+        <input type="checkbox" one-check>
+    </div>
+    <img src="{{ a.img }}">
+    <div class="myshop_prives">
+        <p ng-cloak>{{ a.name }}</p>
+        <p ng-cloak>￥{{ a.price }}</p>
+    </div>
+    <div class="myshop_add">
+        <p my-minus id="myshop_jian" ></p>
+        <p ng-cloak id="myshop_num">0</p>
+        <p my-adds id="myshop_jia" ></p>
+    </div>
+</div>
+<div class="myshop_hasall" >
+    <div all-orcan >
+        <input type="checkbox" >
+    </div>
+    <div>全选</div>
+    <div>共</div>
+    <div id="myshop_numall">￥{{ allPrices() }}</div>
+    <div class="myshop_ok">选好了</div>
+</div>

@@ -1,0 +1,39 @@
+<header></header>
+<div class="menu_left">
+    <ul class="special_list_left">
+        <li style="border-bottom: 0.02rem solid #ccc;font-weight: bold;"><span></span><a href="">热销榜</a></li>
+        <li><span></span><a href="">天天特价</a></li>
+        <li><span></span><a href="">优选水果</a></li>
+        <li><span></span><a href="">牛奶面包</a></li>
+        <li><span></span><a href="">饮料酒水</a></li>
+        <li><span></span><a href="">卤味熟食</a></li>
+        <li><span></span><a href="">休闲零食</a></li>
+        <li><span></span><a href="">方便速食</a></li>
+        <li><span></span><a href="">粮油调味</a></li>
+        <li><span></span><a href="">生活用品</a></li>
+        <li><span></span><a href="">肉蛋时蔬</a></li>
+        <li><span></span><a href="">冰激凌</a></li>
+    </ul>
+</div>
+<div class="menu_top">
+    <ul class="special_list_top">
+        <li><a href="">综合排序</a></li>
+        <li><a href="">按价格</a></li>
+        <li><a href="">按销量</a></li>
+    </ul>
+</div>
+<div class="content">
+    <ul>
+        <li ng-repeat="obj in hot track by $index">
+            <img src="{{ obj.img }}"   class="show_img">
+            <div class="show_name">{{ obj.name }}</div>
+            <div class="show_refer">
+                <p>精选</p>
+                <p>{{obj.pm_desc}}</p>
+            </div>
+            <div class="show_price1">{{obj.specifics}}/盒</div>
+            <div class="show_price2">￥{{obj.price}}<span>￥{{obj.market_price}}</span></div>
+            <div class="show_add" ng-click="add(obj)"></div>
+        </li>
+    </ul>
+</div>

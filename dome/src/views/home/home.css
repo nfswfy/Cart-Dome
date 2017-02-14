@@ -1,0 +1,417 @@
+header{
+    width: 100%;
+    height: 1rem;
+    background: #ffd700;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+#header_search1{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-right: 0.3rem;
+    margin-top: -0.2rem;
+    width: 0.4rem;
+    height: 0.4rem;
+
+}
+#header_sys{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-left: 0.3rem;
+    margin-top: -0.2rem;
+    width: 0.4rem;
+    height: 0.4rem;
+}
+header input{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 2.5rem;
+    height: 0.4rem;
+    font-size: 0.32rem;
+    text-align: center;
+    margin-left: -1.25rem;
+    margin-top: -0.2rem;
+    background:#ffd700;
+    border: 0;
+}
+a{
+    text-decoration: none;
+}
+.swiper-container{
+    width: 6.4rem;
+    height: 2.4rem;
+    margin:0 auto;
+    margin-top: 1rem;
+}
+.swiper-slide{
+    width: 6.4rem;
+    height: 2.4rem;
+}
+.swiper-slide img{
+    width: 6.4rem;
+    height: 2.4rem;
+}
+.main{
+    margin-top: 0.17rem;
+    width: 100%;
+    height:3.15rem;
+    background: #ffffff;
+}
+.ico{
+    width: 25%;
+    height:50%;
+    float: left;
+    position: relative;
+}
+.ico a{
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 1.575rem;
+}
+.ico p{
+    background: blue;
+    width: 65%;
+    height: 65%;
+    margin: 0 auto;
+    background: url("../../images/icons.png") no-repeat;
+    background-size: 4.5rem;
+}
+.ico:nth-child(2) p{
+    width: 80%;
+    background: url("../../images/icons.png") -1rem 0 no-repeat;
+    background-size: 4.5rem;
+}
+.ico:nth-child(3) p{
+    border-radius: 50%;
+    background: url("../../images/icons.png") -2.25rem 0 no-repeat;
+    background-size: 4.5rem;
+}
+.ico:nth-child(4) p{
+    width: 80%;
+    background: url("../../images/icons.png") -3.3rem 0 no-repeat;
+    background-size: 4.5rem;
+}
+.ico:nth-child(5) p{
+    background: url("../../images/icons.png") 0rem -1rem no-repeat;
+    background-size: 4.5rem;
+}
+.ico:nth-child(6) p{
+    background: url("../../images/icons.png") -1rem -1.05rem no-repeat;
+    background-size: 4.5rem;
+}
+.ico:nth-child(7) p{
+    border-radius: 50%;
+    background: url("../../images/icons.png") -2.25rem -1rem no-repeat;
+    background-size: 4.5rem;
+}
+.ico:nth-child(8) p{
+    background: url("../../images/icons.png") -3.3rem -1rem no-repeat;
+    background-size: 4.5rem;
+}
+.ico div{
+    width:100%;
+    text-align: center;
+    line-height: 0.25rem;
+    font-size: 0.2rem;
+    position: absolute;
+    bottom: 10%;
+}
+.nav{
+    margin-top: 0.17rem;
+    width: 100%;
+    height:2.8rem;
+    position: relative;
+    margin-bottom: 0.16rem;
+}
+.nav_img{
+    width: 33%;
+    height:2.8rem;
+    position: absolute;
+}
+.nav_img:first-child{
+    left: 0;
+    top:0;
+}
+.nav_img:nth-child(2){
+    left: 50%;
+    top:0;
+    margin-left: -16.5%;
+}
+.nav_img:nth-child(3){
+    right:0;
+    top:0;
+}
+.nav_img img{
+    width: 100%;
+    height: 2.8rem;
+}
+.easybus{
+    width: 100%;
+    height: 6.4rem;
+    background: #ffffff;
+}
+#bussiness{
+    display: block;
+    width: 100%;
+    height: 1rem;
+}
+.hot_bus{
+    width: 100%;
+    height: 1rem;
+    position: relative;
+}
+.hot_bus a{
+    width: 50%;
+    height: 1rem;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.hot_bus img{
+    width: 50%;
+}
+.drink{
+    width: 100%;
+    height: 1.8rem;
+}
+.drink_img{
+    width: 25%;
+    float: left;
+    height: 1.8rem;
+    position: relative;
+}
+.drink_img img{
+    width: 100%;
+    height: 1.15rem;
+    position: absolute;
+    left: 0;
+    top: 0.32rem;
+}
+.drink_txt{
+    width: 100%;
+    font-size: 0.24rem;
+    text-align: center;
+    margin-top: 1.35rem;
+}
+.drink_show{
+    width: 100%;
+    height: 2.6rem;
+    border-top:0.02rem  solid #efefef ;
+}
+.drink_show1{
+    width: 50%;
+    float: left;
+    height: 1.3rem;
+    position: relative;
+    border-bottom:0.04rem solid #efefef ;
+}
+.drink_show1_d1{
+    position: absolute;
+    top: 0.38rem;
+    font-size: 0.23rem;
+    left: 0.14rem;
+}
+.drink_show1_d2{
+    position: absolute;
+    font-size: 0.21rem;
+    color: red;
+    top: 0.72rem;
+    left: 0.14rem;
+}
+.drink_show1:nth-child(2){
+    background: url("../../images/drink_showimg2.jpg") no-repeat;
+    background-size: 100% 1.3rem ;
+}
+.drink_show1:nth-child(1){
+    background: url("../../images/drink_showimg1.jpg") no-repeat;
+    background-size: 100% 1.3rem ;
+}
+.drink_show1:nth-child(3){
+    background: url("../../images/drink_showimg3.jpg") no-repeat;
+    background-size: 100% 1.3rem ;
+}
+.drink_show1:nth-child(4){
+    background: url("../../images/drink_showimg4.png") no-repeat;
+    background-size: 100% 1.3rem ;
+}
+
+
+.fruit_shop{
+    width: 100%;
+    height: 6.6rem;
+    background: #ffffff;
+    margin-top: 0.17rem;
+}
+.fruit_title{
+    width: 95%;
+    margin: 0 auto;
+    height: 0.68rem;
+    align-content: center;
+    position: relative;
+}
+#fruit_color{
+    width: 0.14rem;
+    height: 0.27rem;
+    background:#f78631;
+    position: absolute;
+    top: 50%;
+    margin-top: -0.135rem;
+}
+#fruit_txt{
+    width: 0.9rem;
+    height: 0.27rem;
+    position: absolute;
+    left: 0.2rem;
+    top:50%;
+    margin-top: -0.135rem;
+    font-size: 0.22rem;
+    color: #f78631;
+}
+.more_fruit{
+    position: absolute;
+    right: 0;
+    top:50%;
+    margin-top: -0.135rem;
+    width: 0.6rem;
+    font-size: 0.2rem;
+    color: black;
+    background: url("../../images/tap.png") 0.5rem no-repeat ;
+}
+#fruit_img{
+    width: 95%;
+    height: 2rem;
+    display: block;
+    margin: 0 auto;
+}
+.fruit_show{
+    width: 100%;
+    height: 3.6rem;
+    margin-top: 0.25rem;
+}
+#fruit_show1{
+    width: 33%;
+    height:3.6rem;
+    position: relative;
+    float: left;
+}
+#fruit_show1 img{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+.fruit_name{
+    width: 100%;
+    height: 0.2rem;
+    font-size: 0.18rem;
+    text-align: center;
+    margin-top: 0.2rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.drink_refer{
+    width: 100%;
+    height: 0.28rem;
+    margin-top: 0.15rem;
+}
+.drink_refer p{
+    display: block;
+    float: left;
+    margin-left: 0.2rem;
+    overflow:auto;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.drink_refer p:nth-child(1){
+    width: 0.56rem;
+    height: 0.28rem;
+    font-size: 0.19rem;
+    color: red;
+    border-radius:0.05rem ;
+    border:0.02rem solid red;
+    text-align: center;
+    line-height: 0.28rem;
+
+}
+.drink_refer p:nth-child(2){
+    width: 0.8rem;
+    height: 0.28rem;
+    font-size: 0.19rem;
+    color: white;
+    border-radius:0.05rem ;
+    background: red;
+    text-align: center;
+    line-height: 0.28rem;
+}
+.fruit_price1{
+    font-size: 0.18rem;
+    text-indent: 0.2rem;
+    color: #9c9a9c;
+    margin-top: 0.12rem;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.fruit_price2{
+    font-size: 0.18rem;
+    text-indent: 0.1rem;
+    color: red;
+    margin-top: 0.12rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.fruit_price2 span{
+    text-decoration: line-through;
+    color: #9c9a9c;
+    margin-left: 0.18rem;
+}
+.fruit_add{
+    width: 0.5rem;
+    height: 0.5rem;
+    /*border: 0.02rem solid #9c9a9c;*/
+    border-radius: 50%;
+    position: absolute;
+    bottom: 2%;
+    right: 5%;
+    background: url("../../images/c1.png") center  no-repeat;
+    background-size: 0.22rem 0.22rem;
+}
+/*.fruit_add img{*/
+    /*width: 0.2rem;*/
+    /*height: 0.2rem;*/
+/*}*/
+#fruit_show2{
+    width: 33%;
+    height:3.6rem;
+    position: relative;
+    float: left;
+    border-left:0.015rem solid #efefef ;
+    border-right:0.015rem solid #efefef ;
+}
+#fruit_show2 img{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+#fruit_show3{
+    width: 33%;
+    height:3.6rem;
+    position: relative;
+    float: left;
+}
+#fruit_show3 img{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
