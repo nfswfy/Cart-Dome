@@ -8,15 +8,9 @@ angular.module('cartPage',['ServiceModule'])
                 templateUrl:'src/views/cart/myshop.html',
                 controller:'cartCtl'
             })
-    }).controller('cartCtl',function($scope){
-        var datas = localStorage.cartDatas;
-        $scope.arr3 = JSON.parse(datas);
-
-
-        $scope.allPrices = function () {
-            $scope.allprice = 0;
-            return $scope.allprice;
-        };
+    }).controller('cartCtl',function($scope,dataList){
+        var datas =JSON.parse(localStorage.cartDatas);
+        $scope.arr3 = datas;
 
 
 

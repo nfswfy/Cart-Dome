@@ -22,10 +22,10 @@
 </div>
 
 <div class="myshop_shopping" ng-repeat=" a in arr3" >
-    <div  >
-        <input type="checkbox" one-check>
+    <div  class="myshop_has">
+        <input type="checkbox" one-check  checked="" class="chkSelect">
     </div>
-    <img src="{{ a.img }}">
+    <img ng-src="{{ a.img }}">
     <div class="myshop_prives">
         <p ng-cloak>{{ a.name }}</p>
         <p ng-cloak>￥{{ a.price }}</p>
@@ -37,7 +37,7 @@
     </div>
 </div>
 <div class="myshop_hasall" >
-    <div all-orcan >
+    <div all-orcan  id="myshop_hasall">
         <input type="checkbox" >
     </div>
     <div>全选</div>

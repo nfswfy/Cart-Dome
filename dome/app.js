@@ -7,7 +7,7 @@ angular.module('myApp',
         "cartPage",
         "showPage",
         "footerPage",
-        // "DirectiveModule",
+        //"DirectiveModule",
         "ServiceModule"
 
     ])

@@ -25,7 +25,7 @@
 <div class="content">
     <ul>
         <li ng-repeat="obj in hot track by $index">
-            <img src="{{ obj.img }}"   class="show_img">
+            <img ng-src="{{ obj.img }}"   class="show_img">
             <div class="show_name">{{ obj.name }}</div>
             <div class="show_refer">
                 <p>精选</p>
